@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+   <head>
+      <title>Rwby Game</title>
+<link rel="stylesheet" href="RwbyStylesheet.css">
+<script>
+function MyFunction(){ marquee = document.getElementById ("marquee");
+            marquee.stop ();}
+</script>
+   </head>
+   
+   <body style="background-image:none;cursor:crosshair;background-color:purple;">
+   <h1 style="font-family:arial;"> Stop the Grimms, but not the huntresses!.. must be played on Chrome</h1>
+   <!---Yes you are seeing red text, but this is purposefull and not in error, marquee is an older tag, but accomplishes what I am trying to make-->
+<marquee behavior="scroll" scrollamount="20"direction="left" onclick="this.stop();" id="marquee" >
+<img id="image" height="75" width="75" src="grimm.jpg" onclick="MyFunction()">
+</marquee>
+<marquee behavior="scroll" scrollamount="50"direction="left" onclick="this.stop();">
+<img id="image"height="75" width="75" src="grimm2.jpg" onclick="MyFunction()">
+</marquee>
+<marquee behavior="scroll" scrollamount="27"direction="left" onclick="this.stop();">
+<img id="image" height="100" width="100"src="grimm.jpg" onclick="MyFunction()">
+<marquee behavior="scroll" scrollamount="20"direction="left" onclick="this.stop();">
+<img id="image" height="75" width="75"src="Ruby.png" onclick="MyFunction()">
+</marquee>
+</marquee>
+<marquee behavior="scroll" scrollamount="10"direction="left" onclick="this.stop();">
+<img id="image" height="75" width="75"src="grimm3.jpg" onclick="MyFunction()">
+</marquee>
+<marquee behavior="scroll" scrollamount="20"direction="left" onclick="this.stop();">
+<img id="image" height="75" width="75"src="Blake.png" onclick="MyFunction()">
+</marquee>
+   </body>
+</html>
